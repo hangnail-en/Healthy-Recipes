@@ -11,8 +11,6 @@ Within its curly braces, write:
 height: 150px;
 Try experimenting with the 150 number and observing the results.
 
-
-Stuck? Get a hint
 2.
 The font size of the recipe description should be larger. In style.css, write a CSS selector for the .description class.
 
@@ -20,7 +18,6 @@ Within its curly braces, add the following CSS:
 
 font-size: 20px;
 
-Stuck? Get a hint
 3.
 Next, let’s style the cooking time. The element on line 15 of index.html has an id attribute of cook-time. Navigate to style.css and add a cook-time ID selector.
 
@@ -28,7 +25,6 @@ Inside of its curly braces, write:
 
 font-weight: bold;
 
-Stuck? Get a hint
 4.
 Now, let’s change the bullet points of the ingredient list to squares instead of circles. Start by writing a selector for the li elements inside of the .ingredients element.
 
@@ -36,7 +32,6 @@ Then, write this inside of its curly braces:
 
 list-style: square;
 
-Stuck? Get a hint
 5.
 Next let’s make the time for each preparation step appear gray. In style.css, write a selector for p elements that also have a class of .time.
 
@@ -44,7 +39,6 @@ Then, inside of this selector’s curly braces, write:
 
 color: gray;
 
-Stuck? Get a hint
 6.
 At the bottom of the page, there’s a link to the full recipe. Let’s make the link a different color.
 
@@ -54,7 +48,6 @@ Then, add this code inside of the selector’s curly braces:
 
 color: SeaGreen;
 
-Stuck? Get a hint
 7.
 Finally, let’s make the font Helvetica instead of the default Times New Roman. Instead of writing multiple selectors to apply the font-family property, write a selector that applies a font-family attribute to all text at once.
 
